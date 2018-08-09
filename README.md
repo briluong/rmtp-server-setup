@@ -16,3 +16,5 @@ rtmp://ec2-54-197-1-1.compute-1.amazonaws.com:1935/live/<your stream key>
 to get stream from server:
 http://ec2-54-197-1-1.compute-1.amazonaws.com/live/<my-stream-key>/index.m3u8
 http://ec2-54-197-1-1.compute-1.amazonaws.com/dash/<my-stream-key>/index.mpd
+
+We are currently using the full_nginx.conf file as the config
