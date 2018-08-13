@@ -1,0 +1,1 @@
+00 23 * * * now=$(date +"%m_%d_%Y") python3 /home/ubuntu/conversion_script.py > /home/ubuntu/conversion.$now.log
