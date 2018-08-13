@@ -56,8 +56,7 @@ for root, dirs, files in os.walk(mainPath, topdown=True):
 
             # convert file to mp4
             flvFilePath = os.path.join(mainPath, fileInPath)
-            os.system("now=$(date +"%m_%d_%Y")")
-            conversionCommand = "ffmpeg -i " + flvFilePath + " -codec copy " + newFilePath + " >> ffmpeg.$now.log"
+            conversionCommand = "ffmpeg -i " + flvFilePath + " -codec copy " + newFilePath
             print (conversionCommand)
             os.system(conversionCommand)
 
